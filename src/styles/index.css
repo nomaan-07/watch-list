@@ -1,1 +1,30 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-caveat-brush: "Caveat Brush", sans-serif;
+  --breakpoint-xs: 30rem;
+}
+
+@layer base {
+  body {
+    @apply font-caveat-brush bg-zinc-900 text-zinc-100;
+  }
+
+  * {
+    transition:
+      background-color 0.2s ease-in-out,
+      border-color 0.2s ease-in-out;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply cursor-pointer rounded-full bg-amber-500;
+  }
+}
