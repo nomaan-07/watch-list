@@ -1,6 +1,6 @@
 import { createHashRouter, Navigate, RouterProvider } from "react-router";
 import ProtectedRoute from "./pages/ProtectedRoute";
-import AppLayout from "./pages/AppLayout";
+import AppLayout from "./ui/layout/AppLayout";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 import Watching from "./pages/Watching";
