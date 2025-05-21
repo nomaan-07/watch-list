@@ -1,5 +1,5 @@
 import AddButton from "../buttons/AddButton";
-import HeaderTitle from "./HeaderTitle";
+import HeaderTitle from "../layout/HeaderTitle";
 import Logo from "./Logo";
 
 function Header() {
