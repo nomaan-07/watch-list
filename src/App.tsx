@@ -10,6 +10,7 @@ import Account from "./pages/Account";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import PageNotFound from "./pages/PageNotFound";
+import AddShow from "./pages/AddShow";
 
 const router = createHashRouter([
   {
@@ -28,6 +29,10 @@ const router = createHashRouter([
       {
         path: "home",
         element: <Home />,
+      },
+      {
+        path: "add",
+        element: <AddShow />,
       },
       {
         path: "watching",
