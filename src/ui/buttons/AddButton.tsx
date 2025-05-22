@@ -17,7 +17,7 @@ function AddButton() {
 
   return (
     <Button onClick={handleClick} ariaLabel="Add a new show">
-      <span className="block shrink-0">Add Show</span>
+      <span className="xs:block hidden shrink-0">Add Show</span>
       <div className="relative size-6">
         <PlusIcon className="absolute inset-0 transition-opacity group-hover:opacity-0" />
         <MinusIcon className="absolute inset-0 opacity-0 transition-opacity group-hover:opacity-100" />

@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 function Header() {
   return (
-    <header className="fixed top-0 right-0 left-0 z-60 flex h-14 items-center justify-between bg-zinc-800 px-4 sm:px-8 lg:left-70 lg:h-20 lg:px-12 lg:py-4">
+    <header className="fixed top-4 right-2 left-2 z-60 flex h-14 items-center justify-between rounded-full bg-zinc-800 px-4 shadow shadow-orange-500 sm:px-8 lg:right-4 lg:left-78 lg:h-20 lg:px-12 lg:py-4">
       <Logo className="lg:hidden" />
       <HeaderTitle />
       <AddButton />
