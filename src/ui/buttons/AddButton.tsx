@@ -1,5 +1,7 @@
+import Button from "./Button";
+
 function AddButton() {
-  return <div>AddButton</div>;
+  return <Button>Add Series</Button>;
 }
 
 export default AddButton;
