@@ -14,7 +14,7 @@ function NavItem({ name, icon, path }: NavItemProps) {
   const isCurrentPath = path === currentPath;
 
   const styles = clsx(
-    "group relative flex items-center gap-4 rounded-full px-4 py-2.5 text-xl font-medium capitalize select-none",
+    "group relative flex items-center gap-4 rounded-full px-4 py-2.5 text-xl font-medium capitalize select-none overflow-hidden",
     isCurrentPath
       ? "shadow-inner shadow-orange-500 pointer-events-none"
       : "transition-colors",
