@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { ArrowRightStartOnRectangleIcon } from "@heroicons/react/16/solid";
+
 import Button from "../../ui/buttons/Button";
 import Overlay from "../../ui/common/Overlay";
 import ActionButtons from "../../ui/buttons/ActionButtons";
-// import ActionButtons from "../../ui/common/ActionButtons";
 
 function Logout() {
   const [isOpen, setIsOpen] = useState(false);
