@@ -30,3 +30,9 @@
     @apply cursor-pointer rounded-full bg-orange-500;
   }
 }
+
+@utility mobile-nav-link {
+  &.active {
+    @apply px-3 py-1 text-orange-500 shadow-inner shadow-orange-500;
+  }
+}
